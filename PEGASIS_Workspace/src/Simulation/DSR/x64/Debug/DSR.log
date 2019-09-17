@@ -1,0 +1,51 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(397,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  CheckRouteFound.c
+  DSR.c
+  MaintBuffer.c
+  MATLAB_Interface.c
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\stdbool.h(16): warning C4005: 'false': macro redefinition
+  C:\MATLAB\extern\include\tmwtypes.h(760): note: see previous definition of 'false'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\stdbool.h(17): warning C4005: 'true': macro redefinition
+  C:\MATLAB\extern\include\tmwtypes.h(763): note: see previous definition of 'true'
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\Include\main.h(215): warning C4005: 'printf': macro redefinition
+  C:\MATLAB\extern\include\mex.h(197): note: see previous definition of 'printf'
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\MATLAB_Interface.c(47): warning C4018: '<': signed/unsigned mismatch
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\MATLAB_Interface.c(105): warning C4018: '<': signed/unsigned mismatch
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\MATLAB_Interface.c(109): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\MATLAB_Interface.c(110): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\MATLAB_Interface.c(145): warning C4013: 'fn_NetSim_PEGASIS_form_cluster' undefined; assuming extern returning int
+  Network_Layer_Ack.c
+  PacketProcessing.c
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PacketProcessing.c(39): warning C4013: 'fn_NetSim_PEGASIS_run' undefined; assuming extern returning int
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PacketProcessing.c(42): warning C4013: 'fn_NetSim_PEGASIS_GetNextHop' undefined; assuming extern returning int
+  PEGASIS.c
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(65): warning C4013: 'fn_NetSim_PEGASIS_next_closest_node' undefined; assuming extern returning int
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(67): warning C4477: 'fprintf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type '__int64'
+  D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(67): note: consider using '%lld' in the format string
+  D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(67): note: consider using '%Id' in the format string
+  D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(67): note: consider using '%I64d' in the format string
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(74): warning C4013: 'fn_NetSim_PEGASIS_run' undefined; assuming extern returning int
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(48): warning C4101: 'i': unreferenced local variable
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(47): warning C4101: 'nInterface': unreferenced local variable
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(49): warning C4101: 'ClusterId': unreferenced local variable
+D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\PEGASIS.c(116): warning C4018: '<': signed/unsigned mismatch
+  RouteCache.c
+  RouteError.c
+  RouteReply.c
+  RouteRequest.c
+  SendBuffer.c
+  SourceRoute.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1226,5): warning MSB8012: TargetPath(D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\..\..\..\bin\bin_x64\DSR.dll) does not match the Linker's OutputFile property value (D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\bin\bin_x64\libDSR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1228,5): warning MSB8012: TargetName(DSR) does not match the Linker's OutputFile property value (libDSR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  List.lib(List.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+CheckRouteFound.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x64\DSR.lib and object ..\..\..\bin\bin_x64\DSR.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+List.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'List.lib(List.obj)' or at 'D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\bin\bin_x64\List.pdb'; linking object as if no debug info
+DSR.lib(DSR.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(DSR.obj)' or at 'D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\bin\bin_x64\DSRLib.pdb'; linking object as if no debug info
+DSR.lib(LinkLayerAck.obj) : warning LNK4099: PDB 'DSRLib.pdb' was not found with 'DSR.lib(LinkLayerAck.obj)' or at 'D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\bin\bin_x64\DSRLib.pdb'; linking object as if no debug info
+  DSR.vcxproj -> D:\File exchange v12.0\PEGASIS_Routing_in_WSN_v12.0\PEGASIS_Workspace\src\Simulation\DSR\..\..\..\bin\bin_x64\DSR.dll
